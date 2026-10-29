@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background with Safe Margin -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Outer Islamic geometric ring -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-dasharray="8 8" opacity="0.6" />
+  <circle cx="256" cy="256" r="184" fill="none" stroke="white" stroke-width="2" opacity="0.2" />
+
+  <!-- Central Emblem Shield -->
+  <g filter="url(#shadow)">
+    <!-- Graduation Cap / Mortarboard representing Madrasah -->
+    <path d="M256 128 L380 188 L256 248 L132 188 Z" fill="url(#goldGrad)" />
+    <!-- Cap Underneath -->
+    <path d="M180 216 L180 270 Q256 310 332 270 L332 216 Q256 250 180 216 Z" fill="#ffffff" />
+    <!-- Tassel -->
+    <path d="M356 200 L370 270" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" />
+    <circle cx="370" cy="276" r="8" fill="url(#goldGrad)" />
+
+    <!-- Open Book / Quran at base -->
+    <path d="M160 330 Q256 310 256 340 Q256 310 352 330 L346 390 Q256 370 256 398 Q256 370 166 390 Z" fill="#ffffff" />
+    <path d="M256 340 L256 398" stroke="#047857" stroke-width="3" />
+
+    <!-- Heart Symbol in Center for Counseling & Empathy -->
+    <path d="M256 276 C256 258 238 244 222 256 C202 272 222 296 256 322 C290 296 310 272 290 256 C274 244 256 258 256 276 Z" fill="#ef4444" />
+  </g>
+
+  <!-- Label abbreviation BK MTs -->
+  <text x="256" y="445" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">
+    BK AL JIHAD
+  </text>
+  <text x="256" y="475" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="700" fill="#fde68a" text-anchor="middle" letter-spacing="2">
+    SALAMAN
+  </text>
+</svg>
