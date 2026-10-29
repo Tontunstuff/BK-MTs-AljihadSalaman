@@ -1,0 +1,6 @@
+{
+  "name": "BK Online MTs Al Jihad Salaman",
+  "description": "Aplikasi Bimbingan dan Konseling (BK) Online MTs Al Jihad Salaman bersama Ibu Istiarini, Guru BK. Layanan booking konseling, curhat anonim, chat interaktif, dan rekapitulasi BK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
